@@ -1,1 +1,1 @@
-# Welcome to HavingthoughtGithubIo!
+# Welcome to Having Thought!
