@@ -23,6 +23,6 @@ struct HavingthoughtGithubIo: Website {
 
 // This will generate your website using the built-in Foundation theme:
 try HavingthoughtGithubIo().publish(withTheme: .foundation, additionalSteps: [
-    .deploy(using: .gitHub("havingthought/havingthought.github.io", useSSH: false))
+    .deploy(using: .gitHub("havingthought/havingthought.github.io", useSSH: true))
 ]
 )
