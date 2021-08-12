@@ -3,11 +3,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "HavingthoughtGithubIo",
+    name: "HavingThought",
     products: [
         .executable(
-            name: "HavingthoughtGithubIo",
-            targets: ["HavingthoughtGithubIo"]
+            name: "HavingThought",
+            targets: ["HavingThought"]
         )
     ],
     dependencies: [
@@ -15,7 +15,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "HavingthoughtGithubIo",
+            name: "HavingThought",
             dependencies: ["Publish"]
         )
     ]
